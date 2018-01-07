@@ -13,7 +13,7 @@ body {
   margin-right: 0;
 }
 
-// Añadir a guia de estilos
+// Añadir a guía de estilos
 // Ajusta el primer elemento de un data-list para no deformar el botón
 .data-list li {
   margin-bottom : 1rem;
@@ -36,7 +36,7 @@ body {
   }
 }
 
-// Añadir a guia de estilos
+// Añadir a guía de estilos
 :not(pre) code {
   font-family : Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
   background : rgba($borderColor,.5);
@@ -46,7 +46,7 @@ body {
   word-break: break-all;
 }
 
-// Añadir a guia de estilos
+// Añadir a guía de estilos
 .vertical-menu {
   border-right : 1px solid $borderColor;
   li {
@@ -68,7 +68,7 @@ body {
   }
 }
 
-// Añadir al layout de la guia de estilos
+// Añadir al layout de la guía de estilos
 .main-header + .main-section {
   margin-top : 4rem;
 }
@@ -98,7 +98,7 @@ body {
   }
 }
 
-// Quitar icono de izquierda en vertical menu
+// Quitar icono de izquierda en vertical menú
 .vertical-menu .active::before {
   display : none;
 }
@@ -116,7 +116,7 @@ pre {
   margin-bottom : 2rem !important;
 }
 
-// Solucionar altura de los cards (añadir a guia de estilos)
+// Solucionar altura de los cards (añadir a guía de estilos)
 .card {
   height : 100%;
   display : flex;
@@ -138,7 +138,7 @@ pre {
   margin-top : auto;
 }
 
-// re-escribe el contenido de titulo del menu de documentacion en responsive
+// re-escribe el contenido de titulo del menu de documentación en responsive
 .vertical-menu-toggle::after{
   content: "Documentación"
 }

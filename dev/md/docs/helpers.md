@@ -4,16 +4,16 @@ Los helpers son ayudas al trabajo que fueron llamadas utilidades en la versión 
 Se aplica al mismo elemento que se quiere alinear (no a su contenedor). Tenga en cuenta que se usa `float` y se requiere declarar un ancho para que funcione bien. Puede declarar anchos usando clases al igual que con los ed-item.
 ### Versión con css
 ```markup
-<div class="to-left s-50"><!-- Se envia a la izquierda 50% de ancho desde small--></div>
-<div class="to-right m-80"><!-- Se envia a la derecha 80% de ancho desde medium --></div>
-<div class="to-center l-75"><!-- Se envia al centro 75% de ancho desde large--></div>
+<div class="to-left s-50"><!-- Se envía a la izquierda 50% de ancho desde small--></div>
+<div class="to-right m-80"><!-- Se envía a la derecha 80% de ancho desde medium --></div>
+<div class="to-center l-75"><!-- Se envía al centro 75% de ancho desde large--></div>
 ```
 ### Versión con Sass
 ```scss
 // Uso con Sass
 // El primer parámetro es el ancho (con su unidad)
 // El segundo (opcional) es el margin
-// toCenter() no requiere segundo parametro
+// toCenter() no requiere segundo parámetro
 .selector1 { @include toRight(50%,10px) }
 .selector2 { @include toLeft(70%,1em) }
 .selector3 { @include toCenter(500px) }
@@ -42,7 +42,7 @@ Compila a
 ## Limpiar floats
 ### Versión con css
 ```markup
-<!--Version css-->
+<!--Versión css-->
 <div class="clearfix"><!-- la clase clearfix limpia los floats--></div>
 ```
 ### Versión con Sass
@@ -54,7 +54,7 @@ Compila a
 Hace que un elemento siempre mida el 100% del ancho disponible
 ### Versión con css
 ```markup
-<!-- Version CSS -->
+<!-- Versión CSS -->
 <div class="full"><!-- Este elemento medirá 100% de ancho siempre --></div>
 ```
 ### Versión con Sass
@@ -66,7 +66,7 @@ Hace que un elemento siempre mida el 100% del ancho disponible
 Tenga en cuenta que si el alto y el ancho no son iguales, el elemento no será circular sino oval.
 ### Versión con css
 ```markup
-<!-- Version CSS -->
+<!-- Versión CSS -->
 <div class="circle"><!-- Este elemento será circular --></div>
 ```
 ### Versión con Sass
@@ -80,8 +80,8 @@ En ed-grid la separación entre los ed-item se genera a través de padding later
 Puede ocurrir que en algunos casos complejos para forzar la alineación requiera añadir o quitar los padding por defecto a cualquier elemento (no solo ed-container y ed-item).
 ### Versión con css
 ```markup
-<!-- Version CSS -->
-<div class="padding"><!-- Añade un padding si el elemento no lo tenia --></div>
+<!-- Versión CSS -->
+<div class="padding"><!-- Añade un padding si el elemento no lo tenía --></div>
 <div class="padding-2"><!-- Añade un padding doble --></div>
 <div class="padding-3"><!-- Añade un padding triple --></div>
 <div class="ed-container no-padding"><!-- Elimina el padding de todos sus ed-item internos--></div>

@@ -1,5 +1,5 @@
 # Videos responsive (Sass/CSS)
-EDgrid le permite insertar videos responsive con la proporcion 16:9 en cualquier breakpoint.
+EDgrid le permite insertar videos responsive con la proporción 16:9 en cualquier breakpoint.
 
 El video siempre se expandirá al 100% del ancho de su contenedor.
 
@@ -12,7 +12,7 @@ Añada la clase `ed-video` al contenedor de su video (que puede ser un `iframe` 
 ```
 
 ## Uso con Sass
-Use el mixin `edVideo($selector)` donde el parámetro `$selector` es opcional e indica un selector personalizado para el video. Si lo omite, funcionará igual que con CSS, aplicando la proporcion a un `iframe` elemento `video` o cualquier elemento con la clase `.video` hijos directos del selector al que se le pasa el mixin.
+Use el mixin `edVideo($selector)` donde el parámetro `$selector` es opcional e indica un selector personalizado para el video. Si lo omite, funcionará igual que con CSS, aplicando la proporción a un `iframe` elemento `video` o cualquier elemento con la clase `.video` hijos directos del selector al que se le pasa el mixin.
 
 Este enfoque es muy útil cuando no quiere añadir clases extra a su html.
 

@@ -5,9 +5,9 @@ El core de ed-grid está construido con flexbox, cero floats, display:table, inl
 Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo que se recomienda activarlos aunque su flujo de trabajo sea con Sass.
 
 * Flexbox alinea los elementos respecto a dos ejes: main (horizontal por defecto) y cross (vertical por defecto).
-* En las siguientes instrucciones, la version css indicará la clase que debe añadirse al marcado html del contenedor
+* En las siguientes instrucciones, la versión css indicará la clase que debe añadirse al marcado html del contenedor
 * En la versión Sass se indicará el mixin que debe incluirse al contenedor
-* En la version CSS (cssCore), si desea indicar un breakpoint, inicie la clase con él, así `l-main-justify` `m-flex-reverse` `xl-cross-center`
+* En la versión CSS (cssCore), si desea indicar un breakpoint, inicie la clase con él, así `l-main-justify` `m-flex-reverse` `xl-cross-center`
 * Si no indica el breakpoint (cssHelpers), así `cross-end`
 
 ## Alineaciones en el eje principal
@@ -15,7 +15,7 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 #### Versión con css
 
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="main-justify">
 <div>1</div>
 <div>2</div>
@@ -25,7 +25,7 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 #### Versión con Sass
 
 ```scss
-// version con Sass *******
+// versión con Sass *******
 .container { @include mainJustify }
 ```
 
@@ -33,7 +33,7 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 
 #### Versión con css
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="main-distribute">
 <div>1</div>
 <div>2</div>
@@ -48,7 +48,7 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 #### Versión con Sass
 
 ```scss
-// version con Sass
+// versión con Sass
 .container { @include mainDistribute }
 ```
 
@@ -56,7 +56,7 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 #### Versión con css
 
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="main-start">
   <div>1</div>
   <div>2</div>
@@ -66,7 +66,7 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 #### Versión con Sass
 
 ```scss
-// version con Sass
+// versión con Sass
 .container { @include mainStart }
 ```
 
@@ -74,7 +74,7 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 #### Versión con css
 
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="main-center">
   <div>1</div>
   <div>2</div>
@@ -85,14 +85,14 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 :markdown-it
 
 ```scss
-// version con Sass
+// versión con Sass
 .container { @include mainCenter }
 ```
 ### Alinea los elementos al final del eje
 #### Versión con css
 
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="main-end">
   <div>1</div>
   <div>2</div>
@@ -102,7 +102,7 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 #### Versión con Sass
 
 ```scss
-// version con Sass
+// versión con Sass
 .container { @include mainEnd }
 ```
 ## Alineaciones en el eje secundario
@@ -119,14 +119,14 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 #### Versión con Sass
 
 ```scss
-// version con Sass
+// versión con Sass
 .container { @include crossStart }
 ```
 ### Al centro del eje secundario
 ##### Versión con css
 
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="cross-center">
   <div>1</div>
   <div>2</div>
@@ -136,14 +136,14 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 #### Versión con Sass
 
 ```scss
-// version con Sass
+// versión con Sass
 .container { @include crossCenter }
 ```
 ### Al final del eje secundario
 ##### Versión con css
 
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="cross-end">
   <div>1</div>
   <div>2</div>
@@ -153,7 +153,7 @@ Estas utilidades están dentro de los helpers de CSS ($cssHelpers : true) por lo
 #### Versión con Sass
 
 ```scss
-// version con Sass
+// versión con Sass
 .container { @include crossEnd }
 ```
 ## Combinar alineaciones en ambos ejes
@@ -161,7 +161,7 @@ Puede combinar alineaciones para el eje principal y secundario
 #### Versión con css
 
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="main-center cross-center">
   <div>1</div>
   <div>2</div>
@@ -171,7 +171,7 @@ Puede combinar alineaciones para el eje principal y secundario
 #### Versión con Sass
 
 ```scss
-// version con Sass
+// versión con Sass
 .container {
   @include mainCenter;
   @include crossCenter;
@@ -182,7 +182,7 @@ Puede combinar alineaciones para el eje principal y secundario
 #### Versión con css
 
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="flex-reverse">
   <div>1</div>
   <div>2</div>
@@ -192,7 +192,7 @@ Puede combinar alineaciones para el eje principal y secundario
 #### Versión con Sass
 
 ```scss
-// version con Sass
+// versión con Sass
 .container { @include flexReverse }
 ```
 
@@ -200,7 +200,7 @@ Puede combinar alineaciones para el eje principal y secundario
 #### Versión con css
 
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="flex-column">
   <div>1</div>
   <div>2</div>
@@ -210,7 +210,7 @@ Puede combinar alineaciones para el eje principal y secundario
 #### Versión con Sass
 
 ```scss
-//version con Sass
+//versión con Sass
 .container { @include flexReverse }
 ```
 
@@ -218,7 +218,7 @@ Puede combinar alineaciones para el eje principal y secundario
 #### Versión con css
 
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="flex-column-reverse">
   <div>1</div>
   <div>2</div>
@@ -228,7 +228,7 @@ Puede combinar alineaciones para el eje principal y secundario
 
 #### Versión con Sass
 ```scss
-// version con Sass
+// versión con Sass
 .container { @include flexColumnReverse }
 ```
 ## Centrado absoluto
@@ -236,14 +236,14 @@ El centrado absoluto se aplica a un container que tiene un solo hijo, el cual pu
 
 #### Versión con css
 ```markup
-<!-- version con css -->
+<!-- versión con css -->
 <div class="flex-center">
   <div>1</div>
 </div>
 ```
 #### Versión con Sass
 ```scss
-// version con Sass
+// versión con Sass
 .container { @include flexCenter }
 ```
 

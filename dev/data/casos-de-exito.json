@@ -33,7 +33,7 @@
       {
       "img": "../images/alkila-web.png",
       "title": "Alkila",
-      "subtitle": "Empresa de reta de autos",
+      "subtitle": "Empresa de renta de autos",
       "description": "Alkila es una empresa Peruana dedicada al rubro de alquiler de vehículos.",
       "url": "http://alkilarentacar.com",
       "user": "no",
@@ -54,7 +54,7 @@
       "img": "../images/starwars-web.png",
       "title": "Carlos - Star Wars project",
       "subtitle": "Proyecto",
-      "description": "Esta web es un poryecto personal usando EDgrid y Angular.",
+      "description": "Esta web es un proyecto personal usando EDgrid y Angular.",
       "url": "https://carlosmanotas.github.io/star-wars-ng2/",
       "user": "Carlos Manotas",
       "imageUser": "../images/starwars-user.png",

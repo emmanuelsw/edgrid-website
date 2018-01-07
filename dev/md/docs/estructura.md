@@ -9,15 +9,15 @@ La siguiente es la estructura de archivos de ed-grid. Solo se explican los archi
   - **_dev.scss** Mixins para el modo dev (desarrollo en versiones previas)
   - **_ed-medu.scss** Mixins para crear menús rwd
   - **_flexbox.scss** Mixins para trabajar con flexbox
-  - **_functions.scss** Funciones para transformar pixeles a em y rem
+  - **_functions.scss** Funciones para transformar píxeles a em y rem
   - **_grid.scss** Mixins para crear grids (cuadriculas) rwd
   - **_helpers.scss** Mixins de ayuda para maquetación
   - **_media-queries.scss** Mixins para trabajar fácilmente con media queries
-  - **_offset.scss** Mixins para crear offsets a los items
+  - **_offset.scss** Mixins para crear offsets a los ítems
   - **_video.scss** Mixin para videos rwd
   - **_visibility.scss** Mixins para controlar la visibilidad de elementos según el breakpoint
 * **css** / Carpeta con la versión css de ed-grid
-  - **​​ed-grid.css** Version css de ed-grid (si va a trabajar sin Sass)
+  - **​​ed-grid.css** Versión css de ed-grid (si va a trabajar sin Sass)
   - **ed-grid.min.css** Versión css de ed-grid minificada
 * **js** /
   - **babel** /

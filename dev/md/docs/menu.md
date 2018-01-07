@@ -1,5 +1,5 @@
-# Menus (Sass/CSS)
-Con EDgrid puede crear menus responsive fácilmente. Basta con crear una lista `ul` y los enlaces dentro de cada `li`.
+# Menús (Sass/CSS)
+Con EDgrid puede crear menús responsive fácilmente. Basta con crear una lista `ul` y los enlaces dentro de cada `li`.
 ## Uso con CSS (cssCore)
 Añada la clase `ed-menu al` `ul` de nivel superior.
 
@@ -20,7 +20,7 @@ Si va a usar Sass, el marcado HTML debe ser el mismo.
 
 Incluya el mixin `edMenu($bp,$style)` al `ul` de nivel superior. Los parámetros son:
 
-* `$bp` breakpoint a partir del cual el menu será horizontal. Puede ser un breakpoint del core de ed-grid (`s,m,l,xl`) o un breakpoint válido en `px`, `em` o `rem`.
+* `$bp` breakpoint a partir del cual el menú será horizontal. Puede ser un breakpoint del core de ed-grid (`s,m,l,xl`) o un breakpoint válido en `px`, `em` o `rem`.
 * `$style` (opcional) puede ser `default`, `navBar` o `buttonBar`
 
 ```scss
@@ -32,7 +32,7 @@ Incluya el mixin `edMenu($bp,$style)` al `ul` de nivel superior. Los parámetros
 ## Trabajo en desarrollo
 Este componente no está terminado y estos son algunos de los pendientes
 
-* En la version CSS, debería funcionar sin tener que añadir una clase para horizontal (en caso se requiera siempre vertical)
+* En la versión CSS, debería funcionar sin tener que añadir una clase para horizontal (en caso se requiera siempre vertical)
 * Scripts JS para activar y desactivar el menú en tamaños moviles
 * Scripts JS para activar y desactivar subniveles en tamaños moviles
-* Definir la personalizacion de colores para menu, items y links.
+* Definir la personalización de colores para menú, ítems y links.

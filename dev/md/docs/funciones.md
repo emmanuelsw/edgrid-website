@@ -16,4 +16,4 @@ Compila a
   max-width:62.5rem;
 }
 ```
-Estas funciones lanzarán un error si le pasa un valor diferente a un número en pixeles
+Estas funciones lanzarán un error si le pasa un valor diferente a un número en píxeles

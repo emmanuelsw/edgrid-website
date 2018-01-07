@@ -1,5 +1,5 @@
 # Grid (CSS/Sass)
-El componente grid nos permite crear cuadriculas a través de un contenedor para la cuadricula y elementos (hijos directos de este contenedor) que serán los items de esta cuadricula.
+El componente grid nos permite crear cuadriculas a través de un contenedor para la cuadricula y elementos (hijos directos de este contenedor) que serán los ítems de esta cuadricula.
 
 Ejemplo de grid (cuadricula). Las cuadriculas no son solo de imágenes, puede usarlas con cualquier tipo de elemento.
 
@@ -8,7 +8,7 @@ En CSS EDgrid cuenta con dos grids preconstruidos: `1,2,3,4` y `2,3,4,5` (los n�
 
 Para utilizarlos, use la clase `grid-container` en el contedor, además la clase `grid-1234` o `grid-2345` para indicar el tipo de grid.
 
-Por último, a cada item de la galeria asignele la clase `grid-item`
+Por último, a cada ítem de la galeria asignele la clase `grid-item`
 
 ```markup
 <div class="grid-container grid-1234">
@@ -25,22 +25,22 @@ Por último, a cada item de la galeria asignele la clase `grid-item`
 ## Uso con Sass
 Para Sass, use el mixin `grid($item,$s $m $l $xl,$gutter)` aplicado al contenedor del grid. Los parámetros son:
 
-* `$item` (obligatorio) es el selector css de cada item del grid. Debe pasarse entrecomillado.
+* `$item` (obligatorio) es el selector css de cada ítem del grid. Debe pasarse entrecomillado.
 * `$s $m $l $xl` (solo el primero obligatorio) son el número de columnas en cada breakpoint de EDgrid (separados por espacios)
   - Los breakpoints superiores heredaran el número de columnas del último breakpoint declarado en el mixin
-  - `$gutter` (opcional) es la separación entre los items. Solo se aceptan `em`, `rem` o `px`.
+  - `$gutter` (opcional) es la separación entre los ítems. Solo se aceptan `em`, `rem` o `px`.
 
 Ejemplo, para el siguiente HTML:
 
 ```markup
 <div class="gallery">
-  <div class="image"><!-- Una foto en la galeria--></div>
-  <div class="image"><!-- Una foto en la galeria--></div>
-  <div class="image"><!-- Una foto en la galeria--></div>
-  <div class="image"><!-- Una foto en la galeria--></div>
-  <div class="image"><!-- Una foto en la galeria--></div>
-  <div class="image"><!-- Una foto en la galeria--></div>
-  <div class="image"><!-- Una foto en la galeria--></div>
+  <div class="image"><!-- Una foto en la galería--></div>
+  <div class="image"><!-- Una foto en la galería--></div>
+  <div class="image"><!-- Una foto en la galería--></div>
+  <div class="image"><!-- Una foto en la galería--></div>
+  <div class="image"><!-- Una foto en la galería--></div>
+  <div class="image"><!-- Una foto en la galería--></div>
+  <div class="image"><!-- Una foto en la galería--></div>
 </div>
 ```
 

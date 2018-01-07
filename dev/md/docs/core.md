@@ -1,7 +1,7 @@
 # Core (CSS/Sass)
 El componente core es el que genera los ed-container y ed-item y sus dimensiones.
 ## Uso con CSS (cssCore)
-Para la version CSS, basta con seguir los pasos para los `ed-container` y `ed-item` indicados en el flujo de trabajo con ed-grid
+Para la versión CSS, basta con seguir los pasos para los `ed-container` y `ed-item` indicados en el flujo de trabajo con ed-grid
 ## Sass
 Si se trabaja con Sass, es recomendable tener la variable `$cssHelpers` en `true` para que se compilen los tamaños para los `ed-item` y seguir el flujo de trabajo recomendado con ed-grid
 
@@ -75,7 +75,7 @@ El scss anterior compila a:
 }
 ```
 
-El mixin `edItem()` recibe 4 parametros, los cuatro opcionales. Uno por cada breakpoint `s, m, l, xl` puede pasar el tamaño que desee, incluso fracciones. Por ejemplo:
+El mixin `edItem()` recibe 4 parámetros, los cuatro opcionales. Uno por cada breakpoint `s, m, l, xl` puede pasar el tamaño que desee, incluso fracciones. Por ejemplo:
 
 ```scss
 .page-aside  { 
